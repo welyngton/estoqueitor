@@ -1,0 +1,23 @@
+sistoq(1)                            User Commands                           sistoq(1)
+
+
+
+sistoq - aproximadamente 3000 linhas em linguagem C.	Tamanho do programa: 47.703 bytes
+
+SINOPSE
+        sistoq	[arq_clientes arq_estoque arq_pedidos]
+
+DESCRICAO
+	O programa eh utilizado para controle de estoque de uma loja de roupas.
+Possui um banco de dados de usuarios do programa, clientes, produtos e pedidos.
+	Primeiramente o programa principal aceita 3 argumentos para incorporar em sua base de dados.
+Se passados, esses argumentos (nomes de arquivo texto) serao transferidos para uma estrutura e gravados nos arquivos do programa.
+     O Programa principal imprime um menu de acordo com o nivel de seguranca do usuario que o esta utizando.
+O nivel fica armazenado no arquivo "usuarios.dat".
+Dadas as opcoes do menu, o usuario pode adicionar, alterar ou remover (dependendo de seu nivel de seguranca) elementos dos bancos de dados.
+
+AUTOR
+       Escrito por Rafael Rotelok e Welyngton Dal Pra
+
+
+Estoqueitor 0.1b               Abril 2007                             sistoq(1)
